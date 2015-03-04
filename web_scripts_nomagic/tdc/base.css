@@ -1,0 +1,171 @@
+
+BODY {
+background: rgb(16, 18, 17) url(/tdc/images/functional/PhotoGray_browser_bg-2.jpg) repeat scroll left top;
+color: white;
+font-family:'Futura-Medium','Futura','Trebuchet MS',sans-serif;
+text-align: center; /* Center's DIV#page in IE */
+}
+
+small {
+color: grey;
+}
+
+DIV#page {
+text-align: center;
+/*margin: 0px auto;*/
+margin-left: auto; 
+margin-right: auto;
+overflow: hidden;
+position: relative;
+word-wrap: break-word;
+text-align: left;
+width: 700px;
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+background-attachment:scroll;
+background-color: #131514;
+background-image:url(/tdc/images/functional/PhotoGray_bg_c-1.jpg);
+background-position:left top;
+background-repeat:repeat;
+display: inline-block;
+}
+
+
+#sidebar {
+border: 1px solid grey;
+margin-top: 0.5em;
+float: right;
+width: 122px;
+background-color: #1F2359;
+padding: 0.5em;
+width: 18%;
+}
+
+#sidebar p {
+line-height:19px;
+padding-top:0;
+color:#7F7F7F;
+font-size:12px;
+font-style:italic;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+margin-bottom: 1em;
+opacity:1;
+padding-bottom:0;
+text-align:left;
+text-decoration:none;
+text-indent:0;
+text-transform:none;
+}
+
+a:link {
+color:#C1C1C1;
+text-decoration:none;
+text-shadow:0 -1px 2px #333333;
+}
+
+a:visited {
+color:#C1C1C1;
+text-decoration:none;
+text-shadow:0 -1px 2px #333333;
+}
+
+
+DIV#body {
+position: relative; 
+margin-left: 2em;
+margin-right: 2em;
+margin-top: 1em;
+}
+
+h1 {
+color:#FFFFFF;
+font-size:24px;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+line-height:32px;
+margin:0;
+opacity:1;
+text-align:left;
+text-decoration:none;
+text-indent:0;
+text-transform:uppercase;
+}
+
+DIV#body h1 {
+margin-bottom: 0.5em;
+}
+
+h2 {
+color:#BFBFBF;
+font-size:16px;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+line-height:21px;
+margin:0;
+opacity:1;
+padding-bottom:0;
+padding-top:0;
+text-align:left;
+text-decoration:none;
+text-indent:0;
+text-transform:uppercase;
+}
+
+P {
+color:#FFFFFF;
+font-size:12px;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+line-height:17px;
+margin:0;
+opacity:1;
+padding-bottom:0;
+padding-top:0;
+text-align:left;
+text-decoration:none;
+text-indent:0;
+text-transform:none;
+}
+
+/* A captioned image */
+.image {
+}
+/* Image caption */
+.image div {
+font-size: 80%;
+text-align: center;
+color:#7F7F7F;
+font-size:12px;
+font-style:italic;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+line-height:20px;
+margin:0;
+opacity:1;
+padding-bottom:0;
+padding-top:0;
+text-decoration:none;
+text-indent:0;
+text-transform:none;
+}
+
+
+/* Add icon to mailto links */
+a[href ^="mailto:"] {
+   padding-left: 15px;
+   background: transparent url(/tdc/images/functional/icon_mailto.gif) no-repeat center left;
+}
+
+/* Nice form alignment */
+form label { display: block; width: 6em; float: left; }
+

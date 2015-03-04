@@ -1,0 +1,12 @@
+resources.swf: resources.xml
+	swfmill simple resources.xml resources.swf
+
+main.swf: resources.swf Picture.as DistortedPicture.as JSON.as
+	mtasc Picture.as DistortedPicture.as JSON.as -main -version 8 -swf resources.swf -out main.swf
+
+.DEFAULT: main.swf
+
+.PHONY: clean
+
+clean:
+	rm *.swf

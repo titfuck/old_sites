@@ -1,0 +1,1 @@
+start "OMake: building main.swf" omake -P

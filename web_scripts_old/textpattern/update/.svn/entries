@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1172"
+   name=""
+   committed-date="2005-12-26T16:08:55.216356Z"
+   url="http://svn.textpattern.com/development/4.0/textpattern/update"
+   last-author="sencer"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="984"
+   name="_to_1.0.0.php"
+   text-time="2006-03-17T22:37:26.000000Z"
+   committed-date="2005-09-29T16:52:30.726129Z"
+   checksum="76a9fea779dd6df48874243331142dce"
+   last-author="kusor"
+   kind="file"
+   prop-time="2006-03-17T22:37:26.000000Z"/>
+<entry
+   committed-rev="1172"
+   name="_update.php"
+   text-time="2006-03-17T22:37:26.000000Z"
+   committed-date="2005-12-26T16:08:55.216356Z"
+   checksum="c1a0ce7d3e753f551eac2e743f569c9e"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:26.000000Z"/>
+<entry
+   committed-rev="1009"
+   name="_to_4.0.2.php"
+   text-time="2006-03-17T22:37:26.000000Z"
+   committed-date="2005-10-07T12:27:10.778986Z"
+   checksum="4d9f762bb4a170a69734ab8f312e62c0"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:26.000000Z"/>
+<entry
+   committed-rev="1172"
+   name="_to_4.0.3.php"
+   text-time="2006-03-17T22:37:26.000000Z"
+   committed-date="2005-12-26T16:08:55.216356Z"
+   checksum="b1d76a0bb91e4c060b43d575aad81ea8"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:26.000000Z"/>
+<entry
+   committed-rev="716"
+   name="index.html"
+   text-time="2006-03-17T22:37:26.000000Z"
+   committed-date="2005-08-04T22:18:55.684238Z"
+   checksum="70c48500373c2cf9b304b7af4bc47048"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:26.000000Z"/>
+</wc-entries>

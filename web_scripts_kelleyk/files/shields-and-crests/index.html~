@@ -1,0 +1,44 @@
+<!-- 
+dan chak (chak@mit.edu)
+2004-11-12
+-->
+
+
+<html>
+<body>
+
+<table border=0>
+<tr>
+
+<td align=center>
+<img src="small/tdc-color-crest.jpg"><p>
+tdc-color-crest<br>
+<a href="tdc-color-crest.jpg">large</a> |
+<a href="tdc-color-crest.svg.tar">svg vector (tarball; MIT webserver refuses to serve SVG files)</a>
+</td>
+
+<td align=center>
+<img src="small/tdc-grayscale-crest.jpg"><p>
+shield-1<br>
+<a href="tdc-grayscale-crest.jpg">large</a>
+</td>
+
+</tr><tr>
+
+<td align=center>
+<img src="small/shield-1.jpg"><p>
+theta-deut-shield<br>
+<a href="shield-1.tif">large</a>
+</td>
+
+<td align=center>
+<img src="small/theta-deut-plate.jpg"><p>
+theta-deut-plate<br>
+<a href="theta-deut-plate.jpg">large</a>
+</td>
+
+</tr>
+</table>
+
+</body>
+</html>

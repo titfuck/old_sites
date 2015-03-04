@@ -1,0 +1,25 @@
+/*  ------------------------------------------------------------------------
+                    Facebook | IE7/PC Hacks | getfirefox.com
+    ------------------------------------------------------------------------  */
+
+.clearfix, #userprofile {
+  overflow : hidden ! important;
+  _height : 1% ! important;
+}
+
+#nav a {
+  width:115px;
+  display:block;
+
+}
+
+/* ----------------------------|  UBERSEARCH |----------------------------  */
+
+.ubersearch .filters fieldset legend {
+  margin: -5px -10px 0px -7px;
+  padding-bottom: 4px;
+  width: 133px }
+
+.filters #label_c2, .filters #label_c1 {
+  display:block;
+}

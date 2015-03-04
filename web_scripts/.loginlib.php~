@@ -1,0 +1,8 @@
+<?php
+
+$pass = 'foobar';
+$hashedpass = sha1( $pass );
+
+echo $hashedpass;
+
+?>

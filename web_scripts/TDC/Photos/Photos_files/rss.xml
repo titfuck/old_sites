@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>TDC Photo Albums</title>
+    <link>http://tdc.mit.edu/TDC/Photos/Photos.html</link>
+    <description>TDC Photo Albums</description>
+    <item>
+      <title>At the House</title>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/At_the_House.html</link>
+      <guid isPermaLink="false">d9cd5ded-2ad5-43fe-9737-3a6b583745ce</guid>
+    </item>
+    <item>
+      <title>On the Road</title>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/On_the_Road.html</link>
+      <guid isPermaLink="false">fd923f61-955f-4c73-8308-bfbee56a6ee7</guid>
+    </item>
+    <item>
+      <title>Social Events</title>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html</link>
+      <guid isPermaLink="false">e4077f73-0e4a-4e15-b3ee-0b09e906eeb0</guid>
+    </item>
+  </channel>
+</rss>

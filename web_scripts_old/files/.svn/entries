@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="152"
+   name=""
+   committed-date="2005-03-06T01:05:07.840735Z"
+   url="http://svn.textpattern.com/development/4.0/files"
+   last-author="kusor"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+</wc-entries>

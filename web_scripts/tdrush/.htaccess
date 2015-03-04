@@ -1,0 +1,4 @@
+AuthUserFile /afs/athena.mit.edu/activity/t/tdc/web_scripts/tdrush/.htpasswd
+AuthName "Theta Deuteron Rush"
+AuthType Basic
+require valid-user

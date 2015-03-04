@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>TDC Housing Info</title>
+    <link>http://tdc.mit.edu/TDC/House/House.html</link>
+    <description>TDC Housing Info</description>
+    <item>
+      <title>First Floor/Basement</title>
+      <link>http://tdc.mit.edu/TDC/House/Pages/First_Floor_Basement.html</link>
+      <guid isPermaLink="false">5c71017d-f86a-4c46-84b3-a5d6b3620243</guid>
+    </item>
+    <item>
+      <title>Second Floor</title>
+      <link>http://tdc.mit.edu/TDC/House/Pages/Second_Floor.html</link>
+      <guid isPermaLink="false">a8fd2aeb-103d-4389-a8be-5875e4e0c19f</guid>
+    </item>
+    <item>
+      <title>Third Floor</title>
+      <link>http://tdc.mit.edu/TDC/House/Pages/Third_Floor.html</link>
+      <guid isPermaLink="false">751c909d-d10e-4ad7-ad18-5df8c431c771</guid>
+    </item>
+    <item>
+      <title>Fourth Floor</title>
+      <link>http://tdc.mit.edu/TDC/House/Pages/Fourth_Floor.html</link>
+      <guid isPermaLink="false">6d30bc13-7361-4dfd-b3df-26b2af8aa2bd</guid>
+    </item>
+  </channel>
+</rss>

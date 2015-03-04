@@ -1,0 +1,111 @@
+
+div#header {
+width: 100%;
+margin-bottom: -3em;
+margin-top: 2.5em;
+}
+
+div#title {
+width: 100%;
+display: block;
+top: -2.4em;
+vertical-align: middle;
+position: relative;
+margin-top: 1.5em;
+}
+
+div#title h1 {
+text-align: center;
+text-transform: uppercase;
+text-align: center;
+font-family: 'Futura-Medium','Futura','Trebuchet MS',sans-serif;
+font-weight: normal;
+color: white;
+font-size: 24pt;
+top: -1.5em;
+position: relative;
+}
+
+img#spotlight {
+position: absolute;
+top: -80px;
+left: 0px;
+width: 700px;
+height: 700px;
+}
+
+img#crest {
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+opacity: 0.58;
+filter: alpha(opacity=58);
+}
+
+div#navbar {
+background-image:url(images/header/PhotoGray_nav_bg.png);
+border-bottom:1px solid #999999;
+border-top:1px solid #999999;
+color:#C1C1C1;
+font-family:Futura,'Trebuchet MS',sans-serif;
+font-size:0.7em;
+line-height:25px;
+padding:0;
+text-align:center;
+text-transform:uppercase;
+padding:6px 0 4px;
+position: relative;
+top: -5em;
+}
+
+div#navbar ul {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin:0;
+padding:0 10px;
+top: -5em;
+}
+
+div#navbar ul li {
+display:inline;
+list-style-type:none;
+margin:0;
+padding:0 10px;
+}
+ 
+
+div#navbar a:link {
+color:#C1C1C1;
+text-decoration:none;
+text-shadow:0 -1px 2px #333333;
+}
+
+div#navbar a:visited {
+color:#C1C1C1;
+text-decoration:none;
+text-shadow:0 -1px 2px #333333;
+}
+
+div#navbar a:hover {
+color: red;
+text-decoration:none;
+text-shadow:0 -1px 2px #7E7E7E;
+}
+
+
+/*
+This allows us to turn the nav link black when it's the current page.
+*/
+BODY.home div#navbar a#home,
+BODY.news div#navbar a#news,
+BODY.house div#navbar a#house,
+BODY.brothers div#navbar a#brothers,
+BODY.rush div#navbar a#rush,
+BODY.photos div#navbar a#photos,
+BODY.officers div#navbar a#officers {
+color: black;
+text-decoration:none;
+text-shadow:0 -1px 2px #7E7E7E;
+}

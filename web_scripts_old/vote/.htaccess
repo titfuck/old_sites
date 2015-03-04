@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteBase /~tdc/vote
+RewriteRule (.*) index.php

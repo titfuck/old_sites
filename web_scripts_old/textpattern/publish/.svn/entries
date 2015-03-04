@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1274"
+   name=""
+   committed-date="2006-04-01T05:16:35.168937Z"
+   url="http://svn.textpattern.com/development/4.0/textpattern/publish"
+   last-author="zem"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="1262"
+   name="taghandlers.php"
+   text-time="2006-03-17T22:37:29.000000Z"
+   committed-date="2006-03-27T15:01:54.445655Z"
+   checksum="88c321388445e3be36251f8c21c38821"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-04-06T08:19:20.000000Z"/>
+<entry
+   committed-rev="1274"
+   name="atom.php"
+   text-time="2006-04-06T08:19:21.000000Z"
+   committed-date="2006-04-01T05:16:35.168937Z"
+   checksum="2ee4c5d0dcc087e2f4fe821cf4fa2dd5"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-04-06T08:19:21.000000Z"/>
+<entry
+   committed-rev="864"
+   name="log.php"
+   text-time="2006-03-17T22:37:29.000000Z"
+   committed-date="2005-09-01T14:06:24.156287Z"
+   checksum="9fc4493936fd77184061aeb697bce47f"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:29.000000Z"/>
+<entry
+   committed-rev="1206"
+   name="comment.php"
+   text-time="2006-03-17T22:37:29.000000Z"
+   committed-date="2006-01-01T23:41:47.324514Z"
+   checksum="e3be7b94180abd0303e35214e9710e61"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:29.000000Z"/>
+<entry
+   committed-rev="884"
+   name="search.php"
+   text-time="2006-03-17T22:37:29.000000Z"
+   committed-date="2005-09-06T08:58:08.948973Z"
+   checksum="90df2619a6a09877cdcc2484b74174ac"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:29.000000Z"/>
+<entry
+   committed-rev="1099"
+   name="rss.php"
+   text-time="2006-03-17T22:37:29.000000Z"
+   committed-date="2005-11-16T01:07:13.714744Z"
+   checksum="31030fd4cb9e696176135003104b8b7c"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:29.000000Z"/>
+</wc-entries>

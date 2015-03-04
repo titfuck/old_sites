@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>TDC News &amp;amp; Activities</title>
+    <link>http://tdc.mit.edu/TDC/News/News.html</link>
+    <description>This is where we will post all TDC news and events.  Keep tuned here and if anything, make sure to use our RSS feed, which you can subscribe to below.</description>
+    <generator>iWeb 2.0</generator>
+    <item>
+      <title>RUSH IS COMING....</title>
+      <link>http://tdc.mit.edu/TDC/News/Entries/2007/8/21_RUSH_IS_COMING.....html</link>
+      <guid isPermaLink="false">7f444aab-be90-4adb-b746-ae8d35823cd3</guid>
+      <pubDate>Tue, 21 Aug 2007 08:29:20 -0400</pubDate>
+      <description>&lt;a href=&quot;http://tdc.mit.edu/TDC/News/Entries/2007/8/21_RUSH_IS_COMING...._files/photo.jpg&quot;&gt;&lt;img src=&quot;http://tdc.mit.edu/TDC/News/Media/photo_1.jpg&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:261px; height:196px;&quot;/&gt;&lt;/a&gt;Make sure to look at our Rush page for more info on rush as well as the rest of the website for more insight on Theta Delta Chi!&lt;br/&gt;&lt;br/&gt;--albert</description>
+      <enclosure url="http://tdc.mit.edu/TDC/News/Entries/2007/8/21_RUSH_IS_COMING...._files/photo.jpg" length="89360" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>new website!</title>
+      <link>http://tdc.mit.edu/TDC/News/Entries/2007/8/12_new_website%21.html</link>
+      <guid isPermaLink="false">97b5084e-d3fa-4af6-8522-a1d467b966e5</guid>
+      <pubDate>Sun, 12 Aug 2007 23:53:41 -0400</pubDate>
+      <description>&lt;a href=&quot;http://tdc.mit.edu/TDC/News/Entries/2007/8/12_new_website%21_files/asdf.png&quot;&gt;&lt;img src=&quot;http://tdc.mit.edu/TDC/News/Media/asdf.png&quot; style=&quot;float:left; padding-right:10px; padding-bottom:10px; width:261px; height:175px;&quot;/&gt;&lt;/a&gt;Welcome to our new website!</description>
+      <enclosure url="http://tdc.mit.edu/TDC/News/Entries/2007/8/12_new_website%21_files/asdf.png" length="201444" type="image/png"/>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,8 @@
+Sun Aug 20 19:09:19 EDT 2006
+  File: `/mit/scripts/deploy/gallery2.tar.gz' -> `gallery-2.0.3-typical.tar.gz'
+  Size: 28        	Blocks: 2          IO Block: 4096   symbolic link
+Device: 15h/21d	Inode: 1307773540  Links: 1
+Access: (0755/lrwxr-xr-x)  Uid: (537644531/ scripts)   Gid: (62275/jbarnold)
+Access: 2006-03-08 17:38:50.000000000 -0500
+Modify: 2006-03-08 17:38:50.000000000 -0500
+Change: 2006-03-08 17:38:50.000000000 -0500

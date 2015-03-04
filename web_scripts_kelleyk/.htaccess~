@@ -1,0 +1,4 @@
+
+ErrorDocument 404 /notfound.php
+
+php_flag display_errors on

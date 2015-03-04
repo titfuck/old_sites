@@ -1,0 +1,16 @@
+	<div id="logobox">
+		<p><img src="crest.png" width="147" height="176" />
+		<span id="motto">Our hearts are united.</span></p>
+	</div>
+	<div id="extra">
+		<a href="index.php">Our House</a><br />
+		<a href="index.php">Our House</a><br />
+		<a href="index.php">Our House</a><br />
+		<a href="index.php">Our House</a>
+	</div>
+	<div id="footer">
+		<p>&copy; Copyright 1890-2007 by Theta Deuteron of Theta Delta Chi.  All rights reserved.</p>
+	</div>
+</div>
+</body>
+</html>

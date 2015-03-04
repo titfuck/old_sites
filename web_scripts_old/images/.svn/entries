@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="628"
+   name=""
+   committed-date="2005-07-26T23:56:07.930611Z"
+   url="http://svn.textpattern.com/development/4.0/images"
+   last-author="zem"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="628"
+   name="1.gif"
+   text-time="2006-03-17T22:39:24.000000Z"
+   committed-date="2005-07-26T23:56:07.930611Z"
+   checksum="8aa4070b5f3362cadcf08884ee575263"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:39:24.000000Z"/>
+</wc-entries>

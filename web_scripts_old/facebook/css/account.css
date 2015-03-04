@@ -1,0 +1,402 @@
+.account_note {
+	background:#fff;
+	padding:10px;
+	margin:0 10px 10px 10px;
+	border:1px solid #bdc7d8;
+	color:#444;
+}
+
+.account_note .note_question {
+  color: #3b5998;
+  display: block; }
+
+ .editaccount #content {
+  padding: 12px 0px 0px 0px;
+  border-bottom: solid 1px #3B5998;
+  border-left: solid 1px #D8DFEA;
+  border-right: solid 1px #D8DFEA; }
+
+  .editaccount .deactivate_link a {
+    margin: 0px;
+    margin-left: -4px;
+    padding: 4px; }
+  .editaccount .deactivate_link a:hover {
+    background: #ffebe8;
+    color: #dd3c10;
+    text-decoration: none; }
+
+/*  -------------------------|  MERGE ACCOUNT SETTINGS  |-------------------------  */
+
+.merge_panel {
+  border-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+.merge_panel .h2 {
+  border-bottom: 1px solid #b9c4da;
+  color: #3b5998;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px 0px 10px 0;
+  padding-bottom: 2px; }
+
+.merge_panel h3 { font-weight:bold; color: black; margin: 10px 0px 5px 10px; }
+
+.merge_panel .answer {
+  background: #fafafa; margin: 3px 10px 20px 10px;  border: 1px solid #d8dfea; padding: 5px 5px 5px 10px; }
+
+/*  -------------------------|  ACCOUNT SETTINGS  |-------------------------  */
+
+.editaccount .settings_panel {
+  width: 400px; 
+  margin: 0px auto 15px; }
+
+.editaccount .settings_panel h4 {
+  border-bottom: 1px solid #b9c4da;
+  color: #3b5998;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px 0px 10px;
+  padding-bottom: 2px; }
+
+.editaccount .settings_panel p {
+  line-height: 14px; 
+  margin: 0px 0px 8px; }
+  
+.editaccount .settings_panel .editor {
+  width: 400px; }
+  
+.editaccount .settings_panel .editor td.label {
+  text-align: right;
+  padding-left: 0px;
+  width: 100px; }
+
+.editaccount .settings_panel .editor .buttons {
+  text-align: left;
+  margin: 0px;
+  padding: 0px 0px 0px 105px; }
+
+.editaccount .settings_panel .editor td input[type~="password"],
+.editaccount .settings_panel .editor td input[type~="text"], 
+.editaccount .settings_panel .editor td input[type="password"],
+.editaccount .settings_panel .editor td input[type="text"] {
+  width: 280px; }
+
+.editaccount .settings_panel .editor select {
+  width: 280px; }
+
+.editaccount .settings_panel ul {
+  list-style: square;
+  padding: 0px;
+  padding-left: 15px; }
+
+.editaccount .settings_panel li {
+  color: #3b5998;
+  margin-bottom: 5px; }
+
+.editaccount .settings_panel li span {
+  color: #000; }
+
+.editaccount .settings_panel em {
+  color: #3b5998;
+  font-weight: bold;
+  font-style: normal }
+  
+.editaccount .settings_panel .contact_email_pending {
+  margin: 0px 0px 8px; 
+  padding: 8px 8px 3px; 
+  background: #eee;
+  border: solid 1px #ccc; }
+  
+  .editaccount .settings_panel .contact_email_pending p {
+    margin: 0px 0px 5px; }
+
+.editaccount .settings_panel .new_contact_email td input[type~="text"],
+.editaccount .settings_panel .new_contact_email td input[type="text"] {
+  width: 200px; }
+
+.editaccount .settings_panel .new_contact_email td .email_option {
+  margin: 0px;
+  padding: 2px 0px 4px 0px; }
+
+.editaccount .settings_panel .new_contact_email td .email_option input[type~="radio"],
+.editaccount .settings_panel .new_contact_email td .email_option input[type="radio"] {
+  margin: 0px 5px 0px 0px; }
+
+.editaccount .settings_panel .new_contact_email td .email_option input { margin-top: 0px }
+
+.editaccount .settings_panel .new_contact_email td .email_option label { padding: 0px; } 
+.editaccount .settings_panel .new_contact_email td .email_option .inputtext { color: gray; width: 260px; } 
+
+/*  ------------------------|  NETWORKS  |---------------------  */
+
+.editaccount .left {
+  float: left; 
+  width: 395px; }
+  
+.editaccount .right {
+  width: 215px; 
+  float: left; }
+
+.editaccount .my_networks {
+  float: left; 
+  width: 385px;
+  padding: 0px 0px 5px 10px; }
+
+  .editaccount .my_networks h5 {
+    font-size: 11px;
+    margin: 0px 2px 0px;
+    padding: 4px 0px 4px; }
+  
+  .editaccount .my_networks h4 {
+    font-size: 12px;
+    margin: 0px 0px 1px; }
+    
+  .editaccount .my_networks h4 span {
+    color: #777;
+    font-weight: normal; }
+    
+  .editaccount .my_networks .block {
+    background: white;
+    border: solid 1px #ccc;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    width: 363px; }
+    
+  .editaccount .my_networks .content {
+    float: left;
+    width: 241px;
+    padding-right: 15px; }
+  
+  .editaccount .my_networks .content small {
+    padding: 0px 0px 10px; 
+    line-height: 13px; 
+    display: block; 
+    color: #000; }
+  
+  .editaccount .my_networks .info {
+    margin: 0px 0px 10px; }
+  
+  .editaccount .my_networks .info .label {
+    color: #777;
+    width: 50px; }
+    
+  .editaccount .my_networks .content p {
+    margin: 0px;
+    padding: 5px 0px 0px;
+    line-height: 14px;
+    clear: both;
+    display: block; }
+
+  .editaccount em {
+    color: #3b5998;
+    font-weight: bold;
+    font-style: normal }
+  
+  .editaccount .my_networks .email_pending {
+    margin: 5px 0px 0px;
+    padding: 3px 8px 3px; 
+    background: #fff;
+    border: dashed 1px #ccc;
+    background: #fbfbfb;
+    border: solid 1px #D8DFEA; }
+
+  .editaccount .my_networks .email_pending p {
+    padding: 2px 0px 2px; 
+    margin: 0px 0px 0px; }
+
+  .editaccount .my_networks .actionspro {
+    float: left; float: right;
+    width: 100px; }
+
+.editaccount .my_networks .no_geo {
+  background: #fbfbfb;
+  border: solid 1px #D8DFEA; }
+    
+  .editaccount .my_networks .no_geo h4 { 
+    color: #777; }
+  
+  .editaccount .my_networks .no_geo .content {
+    width: 350px; }
+
+  .editaccount .my_networks .no_geo .editor {
+    margin: 5px 0px; 
+    width: 335px; }
+
+  .editaccount .my_networks .no_geo .editor .inputtext {
+    width: 215px;
+  }
+
+  .editaccount .my_networks .no_geo .editor small {
+    padding-bottom: 2px;
+  }
+
+  .editaccount .my_networks .no_geo .label {
+    width: 80px;  }
+  
+  .editaccount .my_networks .no_geo select {
+    width: 200px; }
+
+  .editaccount .my_networks .no_geo .buttons {
+    text-align: left; 
+    padding: 0px 0px 5px 86px; }
+
+.editaccount .my_pending_networks {
+  float: left;
+  width: 385px;
+  margin: 0px;
+  padding: 0px 0px 5px 10px; }
+  
+  .editaccount .my_pending_networks h5 {
+    font-size: 11px;
+    margin: 0px 2px 0px;
+    padding: 4px 0px 4px; }
+
+  .editaccount .my_pending_networks .network_pending {
+    padding: 8px 8px 3px;
+    margin: 0px 0px 5px;
+    background: #fff;
+    border: solid 1px #ccc; }
+
+  .editaccount .my_pending_networks .network_pending .network_name {
+    display: block;
+    margin: 0px 0px 5px;
+    padding: 0px; }
+  .editaccount .my_pending_networks .network_pending p { 
+    margin: 0px 0px 5px; }
+      
+.editaccount .action_box {
+  width: 200px;
+  padding: 0px 0px 5px 15px; }
+  
+  .editaccount .action_box h4 {
+    border-bottom: solid 1px #b9c4da;
+    margin: 0px;
+    padding: 4px 0px 4px;
+    font-size: 11px; }
+  
+  .editaccount .action_box p {
+    line-height: 14px; 
+    margin: 8px 0px 8px 0px; }
+    
+  .editaccount .action_box p span {
+    display: block; 
+    font-size: 9px;
+    line-height: 12px; }
+    
+  .editaccount .action_box label {
+    display: block;
+    padding-right: 5px;
+    width: 180px; }
+    
+  .editaccount .action_box .inputtext,
+  .editaccount .action_box .inputpassword {
+    margin: 2px 0px;
+    width: 200px;}
+  
+  .editaccount .action_box .buttons {
+    text-align: left; 
+    padding: 0px 0px 5px 0px; }
+  
+  .editaccount .action_box .buttons input {
+    margin: 4px 0px; }
+
+.editaccount .what_is_a_network {
+  float: left;
+  width: 385px;
+  padding: 0px 0px 5px 10px; }
+  
+  .editaccount .what_is_a_network h5 {
+    font-size: 11px;
+    margin: 0px 2px 0px;
+    padding: 4px 0px 4px; }
+
+  .editaccount .what_is_a_network .border {
+    float: left;
+    width: 363px;
+    padding: 10px;
+    border: solid 1px #D8DFEA;
+    background: #fff; }
+
+/*  ------------------------|  GEOGRAPHY  |------------------------  */
+
+.geography #content {
+        border-bottom: solid 1px #3B5998;
+        border-left: solid 1px #D8DFEA;
+        border-right: solid 1px #D8DFEA; }
+
+.geography .main_panel {
+  border-bottom: 0px;
+  padding-left: 120px;
+  padding-right: 120px; }
+
+.geography .main_panel td select {
+  width: 248px;
+}
+.geography .editor td.label {
+  text-align: right;
+  width: 120px; }
+
+.geography .editor select {
+  float: left;
+  width: 200px;
+}
+
+.editaccount .networks .active {
+  float: left;
+  margin: 0px;
+  width: 300px;
+  padding: 20px 20px 0px 0px; }
+
+.editaccount .networks .join {
+  background: white;
+  border: solid 1px #ccc;
+  float: left;
+  width: 200px;
+  margin-top: 9px;
+  padding: 10px;
+}
+
+
+/*  ------------------------|  ADD NETWORK  |------------------------  */
+
+.addnetwork .editor td.label {
+  text-align: right;
+  width: 80px; }
+
+.addnetwork .editor .year td select {
+  float: left;
+  width: 70px;
+}
+
+.addnetwork .editor .network_status td select {
+  float: left;
+  width: 140px;
+}
+
+/*  ------------------------|  HS TRANSFER  |------------------------  */
+
+.hstransfer .editor td.label {
+  text-align: right;
+  width: 80px; }
+
+.hstransfer .editor td input {
+  float: left;
+  width: 200px;
+}
+
+/*  ------------------------|  DEACTIVATE ACCOUNT  |------------------------  */
+
+.deactivate #content {
+  padding-top:20px;
+  padding-bottom:20px;}
+
+.deactivate #dialog {
+  border-color: #ffebe8; }
+
+.deactivate #dialog td.dialog {
+  border-color: #dd3c10; }
+
+.deactivate #dialog h4 {
+  border-color: #ddd;
+  color: #dd3c10; }

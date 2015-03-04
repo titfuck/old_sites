@@ -1,0 +1,101 @@
+/* brother_page.css */
+#info {
+display: table;
+margin: 0 auto; 
+}
+
+#description p {
+margin-bottom: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+}
+
+div.row {
+display: table-row;
+}
+
+#stats, #gallery {
+display: table-cell;
+height: 221px;
+width: 244px;
+vertical-align: top;
+}
+
+#big_pic {
+width: 100%;
+display: table-cell;
+vertical-align: middle;
+}
+
+#stats {
+background-color: #1F2359;
+}
+
+#stats h2 {
+margin: 0.5em 0 0 0.25em;
+}
+#stats p {
+margin: 0.5em;
+}
+
+/* mini-gallery */
+#gallery {
+display: table-cell;
+}
+
+#gallery img {
+margin: 0;
+padding: 0;
+}
+
+#gallery #top {
+display: table-row;
+width: 244px;
+height: 111px;
+}
+
+#gallery #left, #gallery #right {
+/*height: 100%;*/
+/*width: 50%;*/
+display: table-cell;
+}
+
+/* Navigation */
+#nav {
+
+margin: 1em 0;
+
+/* Font: */
+color: white;
+font-family:'Futura-Medium','Futura','Trebuchet MS',sans-serif;
+font-size:12px;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+letter-spacing:0;
+line-height:17px;
+opacity:1;
+padding-bottom:0;
+padding-top:0;
+text-align:center;
+text-decoration:none;
+text-indent:0;
+text-transform:none;
+}
+#nav #prev {
+display: inline-block;
+vertical-align: middle;
+text-decoration: none;
+}
+#nav #next {
+display: inline-block;
+vertical-align: middle;
+text-decoration: none;
+}
+#nav #names {
+width: 15em;
+display: inline-block;
+vertical-align: middle;
+margin-left: 1em;
+margin-right: 1em;
+}

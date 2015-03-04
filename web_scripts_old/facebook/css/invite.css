@@ -1,0 +1,26 @@
+.invite h4 {
+  margin: 5px 0px;
+  padding: 0px 0px 2px;
+  font-size: 13px;}
+
+.invite .already_registered,
+.invite .invalid_invites,
+.invite .sent_invites,
+.invite .already_invited {
+  margin: 10px auto 20px;
+  width: 380px; }
+        
+.invite .already_registered ul,
+.invite .invalid_invites ul,
+.invite .sent_invites ul,
+.invite .already_invited ul{
+  margin: 0px;
+  padding: 0px; 
+  list-style-type: square;
+  color: #3B5998; }
+
+.invite .already_registered li,
+.invite .invalid_invites li,
+.invite .sent_invites li,
+.invite .already_invited li{
+  margin-left:1.5em; }

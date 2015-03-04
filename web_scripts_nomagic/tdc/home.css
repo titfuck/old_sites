@@ -1,0 +1,28 @@
+/* home.css: style sheet for the home page. */
+div#pictures {
+border-collapse: collapse;
+font-size: 0px;
+}
+
+img#collage {
+width: 100%;
+}
+
+div.article {
+margin-top: 1em;
+}
+
+#sidebar {
+width: 110px;
+}
+
+div.text {
+width: 500px; 
+float: left;
+}
+
+div.text p {
+margin-top: 1em;
+padding-right: 1em;
+}
+

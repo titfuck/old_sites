@@ -1,0 +1,62 @@
+/* brothers.css */
+
+
+.bro_class {
+width: 300px;
+display: table-cell;
+padding-top: 3em;
+}
+
+.bro_class .class_year {
+text-align: center;
+text-transform:uppercase;
+color:#BFBFBF;
+font-size:16px;
+}
+
+.bro_class .class_pic {
+}
+
+.bro_class .bro_list {
+margin: 0;
+display: inline-block;
+font-size:13px;
+padding-left: 2em;
+vertical-align: top;
+}
+
+.bro_class .bro_list li {
+/*display: inline-block;*/
+}
+
+div.row {
+display: table-row;
+}
+
+#classes {
+position: relative;
+top: -1em;
+display: table;
+margin: 0 auto;
+border-spacing: 
+}
+
+div#co2008 {
+padding-right: 15px;
+}
+
+div#co2009 {
+padding-left: 15px;
+}
+
+div#co2010 {
+padding-right: 15px;
+}
+
+div#co2011 {
+padding-left: 15px;
+}
+
+div#co2012 {
+padding-right: 15px;
+}

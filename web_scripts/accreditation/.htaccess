@@ -1,0 +1,5 @@
+AuthType SSLCert
+Require afsgroup system:tdc-accreditation
+ErrorDocument 401 /__scripts/needcerts
+#SSLVerifyClient require
+SSLOptions +OptRenegotiate

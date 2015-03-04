@@ -1,0 +1,32 @@
+/* house.css */
+div#description p {
+margin-top: 1em;
+}
+
+div#description {
+float: left;
+width: 55%;
+}
+
+div#sidebar {
+width: 40%;
+margin-top: 0;
+}
+
+div#sidebar p {
+text-align: center;
+margin-bottom: 0;
+margin-top: 1em;
+}
+
+
+div#sidebar img {
+width: 100%;
+}
+
+#album {
+display: inline-block;
+font-size: 1.5em;
+width: 100%;
+margin: 10px;
+}

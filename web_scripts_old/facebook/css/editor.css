@@ -1,0 +1,129 @@
+
+.editor {
+  margin: 3px auto 7px; }
+
+.editor td {
+  border: none;
+  margin: 0px;
+  padding: 5px 1px 1px; }
+  
+.editor_panel {
+  padding: 10px 0px;
+  background: #f7f7f7; }
+
+.editor td {
+  border: none;
+  margin: 0px;
+  padding: 5px 1px 1px; }
+
+.editor td.label {
+  padding-right: 10px;
+  font-weight: bold;
+  color: #666; }
+
+.editor td.label small {
+  color: #999; }
+
+.editor .suboption_group {
+    border-top: 1px solid #c0c0c0; 
+    border-bottom: 1px solid #c0c0c0; 
+    margin-left: 20px; }
+
+.editor .suboption_group td { padding: 0px; }
+
+.editor tr.tallrow {
+  vertical-align: top; }
+
+.editor tr.tallrow td.label {
+  padding-top: 7px; }
+
+.editor tr.subrow {
+  vertical-align: top; }
+.editor tr.subrow td {
+  margin-top: 0px;
+  padding-top: 0px; }
+
+.editor .buttons {
+  text-align: center;
+  padding: 10px 0px 0px; }
+
+.editor .buttons .inputsubmit,
+.editor .buttons .inputbutton {
+  margin: 2px 4px; }
+
+.editor label {
+  width: 200px;
+  color: black;
+  font-weight: normal; }
+
+.editor table.option_field td {
+  padding: 0px 2px 0px 0px;
+  margin: 0px; }
+
+.editor .option_caption {
+  padding-bottom: 2px;
+  width: 260px;
+  color: #777;
+  font-weight: normal; }
+
+.editor .inputtext,
+.editor .inputpassword {
+  margin-left: 0px;
+  width: 300px; }
+.editor .textarea {
+  margin-left: 0px;
+  width: 300px; }
+.editor select {
+  margin-right: 5px;
+  margin-left: 0px; }
+
+/* Field Types */
+
+.editor .checkbox_array {
+  padding: 5px 0px 0px;
+  margin: 0px; }
+.editor .checkbox_array td {
+  margin: 0px;
+  padding: 0px 0px 0px; }
+.editor .checkbox_array label {
+  padding-right: 15px; }
+
+.editor .relationship .inputtext {
+  width: 200px; }
+
+.editor .highschool input {
+  margin-right: 5px;
+  width: 235px; }
+
+.editor .school input {
+  margin-right: 5px;
+  width: 235px; }
+
+.editor .select xselect {
+  width: 200px; }
+
+.editor .two_level_select select {
+  width: 145px; }
+
+.editor .text_with_privacy input {
+  margin-right: 5px;
+  width: 105px; }
+.editor .text_with_privacy select {
+  margin-left: 5px;
+  width: auto; }
+.editor .text_with_privacy td {
+  color: #777; }
+
+.editor .divider {
+  margin: 5px 0px;
+  height:0;
+  overflow:hidden;
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #fff; }
+
+.editor .date_time span, .editor .inline_text {
+    margin: 0px 4px 0px -2px; }
+
+.editor .note { width: 300px; }
+
+.editor .hiddenrow { display: none; }

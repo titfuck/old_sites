@@ -1,0 +1,41 @@
+
+.picture .current {
+  margin: 10px 10px 20px 20px;
+  float: left;
+  width: 200px; }
+
+.picture .current h4 {
+  margin: 0px;
+  padding: 1px 0px 4px;
+  font-size: 11px;
+  border-bottom: none; }
+
+.picture .current .no_picture {
+  width: 200px;
+  font-size: 12px;
+  padding: 75px 0px;
+  text-align: center;
+  background: white;
+  border: solid 1px #ddd;
+  color: gray; }
+
+.picture .options {
+  margin: 10px 20px 20px 10px;
+  float: left;
+  width: 340px; }
+
+.picture .options h4 {  
+  border-bottom: solid 1px #b9c4da;
+  margin: 0px;
+  padding: 0px 0px 2px;
+  font-size: 13px; }
+
+.picture .options small {
+  display: block;
+  margin: 5px 0px;
+  color: #777; }
+
+.picture .options .inputcheckbox {
+  float: left;
+  display: block;
+  margin: 2px 5px 8px 0px; }

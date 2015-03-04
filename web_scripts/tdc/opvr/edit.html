@@ -1,0 +1,393 @@
+<html>
+<head>
+<title>OpenPhotoVR - editing album</title>
+<script src="scripts.js"></script>
+<script>
+
+function onLoad()
+{
+	var albumId = "";
+	var i = window.location.search.indexOf("id=");
+	if (i != -1)
+		albumId = window.location.search.substr(i + 3);
+	if (albumId != "")
+	{
+		loadJSON("albums/" + albumId + ".js?" + Math.random(), function(arg)
+		{
+			for (var id2 in arg.images) (function(id2)
+			{
+				var a = document.createElement("a");
+				a.className = "around_holder";
+				a.href = "#";
+				a.onclick = function()
+				{
+					galleryClickHandler(id2);
+					return false;
+				}
+				a.onmouseover = function()
+				{
+					$("mymovie").highlightLink(id2);
+				}
+				a.onmouseout = function()
+				{
+					$("mymovie").unhighlightLink();
+				}
+				var span = document.createElement("span");
+				span.className = "holder";
+				span.style.backgroundImage = "url('data/" + id2 + "/thumbnail.jpg')";
+				span.innerHTML = " ";
+				a.appendChild(span);
+				$("gallery").appendChild(a);
+			})(id2);
+	
+			var firstImageId = false;
+			var cookieImageId = readCookie("edit_image_id");
+			for (var id2 in arg.images)
+				if (id2 == cookieImageId)
+					firstImageId = id2;
+			if (!firstImageId)
+			{
+				for (var id2 in arg.images)
+				{
+					firstImageId = id2;
+				}
+			}
+			window.getFirstID = function() { return firstImageId; }
+
+			$("add_image_album_id").value = albumId;
+			if (!firstImageId)
+				$("view_full_screen").onclick = function()
+				{
+					alert("Nothing to view! Add some pictures first.");
+					return false;
+				}
+			var so = new SWFObject("main.swf", "mymovie", $("flash").clientWidth, $("flash").clientHeight, "8", "#ffffff");
+			so.write("flash");
+		});
+	}
+	else
+	{
+		$("add_image_album_id").value = "";
+		$("view_full_screen").onclick = function()
+		{
+			alert("Nothing to view! Add some pictures first.");
+			return false;
+		}
+		var so = new SWFObject("main.swf", "mymovie", $("flash").clientWidth, $("flash").clientHeight, "8", "#ffffff");
+		so.write("flash");
+	}
+	loadAnalytics();
+}
+
+var currentID = false;
+var description = false;
+
+function loadNav(id)
+{
+	if ((id == currentID) || !navEnabled())
+		return;
+	currentID = id;
+	createCookie("edit_image_id", id);
+	loadJSON("data/" + id + "/nav.js?" + Math.random(), function(arg)
+	{ 
+		$("mymovie").setNavigationInfo(arg);
+		description = arg.description ? utf8Decode(base64Decode(arg.description)) : "";
+		$("description").innerHTML = (description == "") ? "<span style='color: #888'>(empty)</span>" : description.replace(/<[^\/a]/g, "").replace("&", "&amp;");
+		$("around_description").style.display = "block";
+		$("image_actions").style.display = "inline";
+	});
+	$("view_full_screen").href = "view.html#" + id;
+}
+
+var isNavEnabled = true;
+
+function navEnabled()
+{
+	return isNavEnabled;
+}
+
+function disableActions()
+{
+	isNavEnabled = false;
+	hide$("actions");
+}
+
+function backToActions()
+{
+	isNavEnabled = true;
+	show$("actions");
+	hide$("upload_dialog");
+	hide$("description_dialog");
+	hide$("link_dialog_1");
+	hide$("link_dialog_2");
+	galleryClickHandler = loadNav1;
+}
+
+function uploadNewImage()
+{
+	disableActions();
+	show$("upload_dialog");
+	$("add_image_file").value = "";
+	$("add_image_url").value = "";
+}
+
+function loadNav1(id)
+{
+	$("mymovie").followLink(id, false);
+}
+
+var galleryClickHandler = loadNav1;
+var editedID = false;
+
+function chooseLinkID()
+{
+	galleryClickHandler = function(id)
+	{
+		if (id == currentID)
+			return;
+		editedID = id;
+		setVisible$("delete_link", $("mymovie").editLink(id, 100, 100));
+		hide$("link_dialog_1");
+		show$("link_dialog_2");
+		$("edit_link_ok").disabled = false;
+		$("delete_link").disabled = false;
+	}
+	disableActions();
+	show$("link_dialog_1");
+}
+
+function editLinkCancel()
+{
+	$("mymovie").editLinkCancel();
+	hide$("link_dialog_1");
+	hide$("link_dialog_2");
+	backToActions();
+}
+
+function editLinkOnServer(id1, id2, p1, p2)
+{
+	$("edit_link_ok").disabled = true;
+	$("edit_link_id1").value = id1;
+	$("edit_link_id2").value = id2;
+	for (var i = 0; i < 2; i++)
+		for (var j = 0; j < 2; j++)
+			for (var k = 0; k < 4; k++)
+				$("edit_link_" + ["x", "y"][i] + (j + 1) + "" + (k + 1)).value = [p1, p2][j][k][i];
+	$("edit_link_form").submit();
+}
+
+function deleteLinkOnServer(id1, id2)
+{
+	$("delete_link").disabled = true;
+	$("delete_link_id1").value = currentID;
+	$("delete_link_id2").value = editedID;
+	$("delete_link_form").submit();
+}
+
+function editDescription()
+{
+	disableActions();
+	show$("description_dialog");
+	$("description_textarea").value = description;
+	$("edit_description_ok").disabled = false;
+}
+
+function editDescriptionOnServer()
+{
+	$("edit_description_ok").disabled = true;
+	$("edit_description_id").value = currentID;
+	$("edit_description_text").value = base64Encode(utf8Encode($("description_textarea").value));
+	$("edit_description_form").submit();
+}
+
+function deleteCurrentImage()
+{
+	if (confirm("Are you sure you wish to delete this photo?"))
+	{
+		$("delete_image_id").value = currentID;
+		$("delete_image_form").submit();
+	}
+}
+
+function updateUploadForm()
+{
+}
+
+</script>
+<style>
+
+body {
+	font-family: sans-serif;
+	font-size: 80%;
+	padding: 0;
+	margin: 0;
+}
+
+#actions button {
+	font-size: 90%;
+}
+
+#gallery {
+	width: 384px;
+	margin-top: -2px;
+}
+
+.around_holder {
+	display: inline-block;
+	border: 1px solid #ddd;
+	padding: 5px;
+	margin: 2px;
+	cursor: pointer;
+	cursor: hand;
+}
+
+a.around_holder:hover {
+	border: 1px solid #bbb;
+}
+
+.holder {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+h2 {
+	margin-left: 0px; 
+	margin-bottom: 10px; 
+	margin-top: 0;
+	color: #ff9955; 
+	font-family: sans-serif; 
+	font-weight: normal; 
+	font-size: 25px;
+}
+
+</style>
+</head>
+<body onload="onLoad()">
+
+<center style="border-top: 10px solid gray;">
+ <div style="width: 922px; background-color: white; padding-top: 13px; padding-bottom: 20px;">
+
+  <div style="text-align: left;">
+   <a href="/">
+    <img src="logo.png" style="margin-left: 17px; margin-top: 5px; margin-bottom: 20px; border: 0;" />
+   </a>
+  </div>
+
+  <div style="width: 882px; text-align: left; padding-bottom: 40px;">
+   Hi! This is the album editor. Upload some photos and link them together. 
+   Be sure to include copyright attribution in the descriptions if the photos don't belong to you.
+   When you're done, <a id="view_full_screen" href="#">&raquo; view your album in full screen</a>
+   and drop me a link to it in the <a href="/">blog</a> comments.
+  </div>
+
+  <div style="position: relative; width: 882px; text-align: left;">
+   <h2>Current photo</h2>
+   <div style="width: 460px; height: 320px; border: 1px solid #ddd" id="flash"></div>
+
+   <div id="around_description" style="display: none;">
+    <br />
+    <b>Description:</b> <span id="description"></span>
+    <br />
+   </div>
+
+   <br />
+
+   <div id="actions">
+    <button onclick="uploadNewImage()">Upload new photo</button> 
+    <span id="image_actions" style="display: none;">
+     <button onclick="chooseLinkID()">Edit links</button>&nbsp; 
+     <button onclick="editDescription()">Edit description</button>&nbsp;
+     <button onclick="deleteCurrentImage()">Delete this photo</button>&nbsp;
+    </span>
+   </div>
+
+   <div id="upload_dialog" style="display: none;">
+    <form enctype="multipart/form-data" method="POST" action="add_image.php" onsubmit="eraseCookie('edit_image_id');">
+     Choose an image file to upload:
+     <input type="hidden" name="MAX_FILE_SIZE" value="10000000" />
+     <input type="hidden" name="album_id" value="" id="add_image_album_id" />
+     <input type="file" name="userfile" id="add_image_file" onchange="updateUploadForm()" />
+     <br />
+     Or an URL: <input type="text" name="url" id="add_image_url" onchange="updateUploadForm()" value="" size="54" />
+     <br />
+     <small>(Note: the URL should point to the photo itself, <i>not</i> the webpage containing it.)</small>
+     <br />
+     <input type="submit" value="Upload" id="add_image_ok" onclick="setTimeout(function() { $('add_image_ok').disabled = true;}, 10);" />
+     <button onclick="backToActions(); return false;">Cancel</button>
+    </form>
+   </div>
+
+   <div id="description_dialog" style="display: none;">
+    Enter a new description for this photo:
+    <br />
+    <textarea id="description_textarea" cols=55 rows=10></textarea>
+    <br />
+    <button id="edit_description_ok" onclick="editDescriptionOnServer()">Save</button> 
+    <button onclick="backToActions(); return false;">Cancel</button>
+   </div>
+
+   <div id="link_dialog_1" style="display: none;">
+    Choose photo to link, edit or unlink to
+    by clicking in the gallery on the right.
+    <br />
+    <button onclick="editLinkCancel()">Cancel</button>
+   </div>
+
+   <div id="link_dialog_2" style="display: none;">
+    Drag the four corners to get a good correspondence.
+    <br />
+    <button onclick="$('mymovie').toggleEdit()">Show/hide</button>&nbsp;
+    <button id="delete_link" onclick="deleteLinkOnServer()">Delete link</button>&nbsp;
+    <button id="edit_link_ok" onclick="$('mymovie').editLinkOK()">Save</button>&nbsp;
+    <button onclick="editLinkCancel()">Cancel</button>&nbsp;
+    <br />
+    (spacebar to show/hide while dragging)
+   </div>
+
+   <div id="gallery" style="position: absolute; right: 0; top: -1px;">
+    <h2 style="text-align: left;">All photos</h2>
+   </div>
+
+   <div id="forms" style="display: none;">
+    <form id="delete_image_form" method="POST" action="delete_image.php"> 
+     <input type="hidden" name="id" value="" id="delete_image_id" />
+    </form>
+    <form id="edit_description_form" method="POST" action="edit_description.php"> 
+     <input type="hidden" name="id" value="" id="edit_description_id" />
+     <input type="hidden" name="description" value="" id="edit_description_text" />
+    </form>
+    <form id="edit_link_form" method="POST" action="edit_link.php">
+     <input type="hidden" name="id1" value="" id="edit_link_id1" />
+     <input type="hidden" name="id2" value="" id="edit_link_id2" />
+     <input type="hidden" name="x11" value="" id="edit_link_x11" />
+     <input type="hidden" name="x12" value="" id="edit_link_x12" />
+     <input type="hidden" name="x13" value="" id="edit_link_x13" />
+     <input type="hidden" name="x14" value="" id="edit_link_x14" />
+     <input type="hidden" name="y11" value="" id="edit_link_y11" />
+     <input type="hidden" name="y12" value="" id="edit_link_y12" />
+     <input type="hidden" name="y13" value="" id="edit_link_y13" />
+     <input type="hidden" name="y14" value="" id="edit_link_y14" />
+     <input type="hidden" name="x21" value="" id="edit_link_x21" />
+     <input type="hidden" name="x22" value="" id="edit_link_x22" />
+     <input type="hidden" name="x23" value="" id="edit_link_x23" />
+     <input type="hidden" name="x24" value="" id="edit_link_x24" />
+     <input type="hidden" name="y21" value="" id="edit_link_y21" />
+     <input type="hidden" name="y22" value="" id="edit_link_y22" />
+     <input type="hidden" name="y23" value="" id="edit_link_y23" />
+     <input type="hidden" name="y24" value="" id="edit_link_y24" />
+    </form>
+    <form id="delete_link_form" method="POST" action="delete_link.php">
+     <input type="hidden" name="id1" value="" id="delete_link_id1" />
+     <input type="hidden" name="id2" value="" id="delete_link_id2" />
+    </form>
+   </div>
+
+  </div>
+ </div>
+</center>
+
+</body>
+</html>

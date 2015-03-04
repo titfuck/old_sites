@@ -1,0 +1,217 @@
+This is e-TeX, Version 3.14159-1.1 (Web2c 7.0) (format=latex 97.10.28)  13 JUN 2001 18:18
+entering compatibility mode
+**./images.tex
+(./images.tex
+LaTeX2e <1997/06/01>
+
+(/mit/newtex/share/texmf/tex/latex/base/article.cls
+Document Class: article 1997/06/16 v1.3v Standard LaTeX document class
+(/mit/newtex/share/texmf/tex/latex/base/size12.clo
+File: size12.clo 1997/06/16 v1.3v Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (/mit/newtex/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1997/06/09 v1.0d Enhanced LaTeX Graphics (DPC,SPQR)
+(/mit/newtex/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1995/09/21 v1.09 key=value parser (DPC)
+) (/mit/newtex/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 1997/06/07 v1.0d Standard LaTeX Graphics (DPC,SPQR)
+(/mit/newtex/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1994/10/16 v1.08 sin cos tan (DPC)
+) (/mit/newtex/share/texmf/tex/latex/config/graphics.cfg)
+Package graphics Info: Driver file: dvips.def on input line 84.
+(/mit/newtex/share/texmf/tex/latex/graphics/dvips.def
+File: dvips.def 1996/12/12 v3.0d Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+) (/mit/newtex/share/texmf/tex/latex2/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count87
+\d@lta=\count88
+\@delta=\dimen105
+\@@delta=\dimen106
+\@gridcnt=\count89
+\@joinkind=\count90
+\@dotgap=\dimen107
+\@ddotgap=\dimen108
+\@x@diff=\count91
+\@y@diff=\count92
+\x@diff=\dimen109
+\y@diff=\dimen110
+\@dotbox=\box26
+\num@segments=\count93
+\num@segmentsi=\count94
+\@datafile=\read1
+) (/mit/newtex/share/texmf/tex/latex/misc/psfrag.sty
+Package: psfrag 1997/01/22 v3.03 PSfrag (MCG)
+\pfg@pcount=\count95
+\pfg@scount=\count96
+\pfg@temp=\write3
+) (/mit/newtex/share/texmf/tex/latex/amslatex/amsmath.sty
+Package: amsmath 1997/03/20 v1.2d AMS math features
+\@mathmargin=\skip43
+(/mit/newtex/share/texmf/tex/latex/amslatex/amstext.sty
+Package: amstext 1996/10/28 v1.2b
+(/mit/newtex/share/texmf/tex/latex/amslatex/amsgen.sty
+File: amsgen 1996/10/29 v1.2b
+\@emptytoks=\toks14
+\ex@=\dimen111
+)) (/mit/newtex/share/texmf/tex/latex/amslatex/amsbsy.sty
+Package: amsbsy 1996/10/28 v1.2b
+\pmbraise@=\dimen112
+) (/mit/newtex/share/texmf/tex/latex/amslatex/amsopn.sty
+Package: amsopn 1996/10/28 v1.2b operator names
+)
+LaTeX Info: Redefining \frac on input line 188.
+\uproot@=\count97
+\leftroot@=\count98
+\classnum@=\count99
+\DOTSCASE@=\count100
+LaTeX Info: Redefining \dots on input line 335.
+LaTeX Info: Redefining \ldots on input line 418.
+LaTeX Info: Redefining \cdots on input line 422.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 500.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 501.
+\skewcharcount@=\count101
+\familycount@=\count102
+\pointcount@=\count103
+\accentdimen@=\dimen114
+\accentmu@=\count104
+\minaw@=\dimen115
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks15
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks16
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+) (/mit/newtex/share/texmf/tex/latex/graphics/color.sty
+Package: color 1997/06/07 v1.0e Standard LaTeX Color (DPC)
+(/mit/newtex/share/texmf/tex/latex/config/color.cfg)
+Package color Info: Driver file: dvips.def on input line 129.
+(/mit/newtex/share/texmf/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 1996/12/12 v3.0d Driver-dependant file (DPC,SPQR)
+))
+\sizebox=\box29
+\lthtmlwrite=\write4
+(images.aux
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/hardware.aux
+)
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/software.aux
+) (/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/network.au
+x)
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/mailing-list
+s.aux) (/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/locke
+r.aux) (/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/phone
+s.aux)
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/voicemail.au
+x)
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/printing.aux
+) (/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/cable.aux)
+
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/tdc-dot-mit.
+aux) (/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/service
+.aux)
+(/afs/athena.mit.edu/activity/t/tdchouse/.accounts/NET_GEEK/manual/updating.aux
+))
+\openout1 = `images.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+latex2htmlLength hsize=349.0pt
+latex2htmlLength vsize=680.43pt
+latex2htmlLength hoffset=0.0pt
+latex2htmlLength voffset=0.0pt
+latex2htmlLength topmargin=0.0pt
+latex2htmlLength topskip=0.00003pt
+latex2htmlLength headheight=0.0pt
+latex2htmlLength headsep=0.0pt
+latex2htmlLength parskip=7.22743pt
+latex2htmlLength oddsidemargin=0.0pt
+latex2htmlLength evensidemargin=0.0pt
+l2hSize :tex2html_wrap_inline75:7.75pt::0.0pt::6.00002pt.
+ht9.72505pt: dp2.5pt [1
+
+
+]
+
+LaTeX Warning: File `./images/admin/info-central.gif.eps' not found on input li
+ne 170.
+
+
+! LaTeX Error: File `./images/admin/info-central.gif.eps' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 ...hics{./images/admin/info-central.gif.eps}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Cannot determine size of graphic in ./images/admin/info-central.
+gif.eps (no BoundingBox).
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.170 ...hics{./images/admin/info-central.gif.eps}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+File: ./images/admin/info-central.gif.eps Graphic file (type eps)
+<./images/admin/info-central.gif.eps>
+l2hSize :tex2html_wrap334:72.26999pt::0.0pt::349.0pt.
+[2
+
+
+] (images.aux) ) 
+Here is how much of TeX's memory you used:
+ 1456 strings out of 10906
+ 17400 string characters out of 72736
+ 65984 words of memory out of 263001
+ 4291 multiletter control sequences out of 10000+0
+ 7050 words of font info for 26 fonts, out of 100000 for 500
+ 14 hyphenation exceptions out of 1000
+ 27i,5n,21p,233b,223s stack positions out of 300i,100n,500p,3000b,4000s
+
+Output written on images.dvi (2 pages, 588 bytes).

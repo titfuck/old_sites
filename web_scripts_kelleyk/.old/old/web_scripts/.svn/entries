@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1280"
+   name=""
+   committed-date="2006-04-11T23:18:32.340110Z"
+   url="http://svn.textpattern.com/development/4.0"
+   last-author="mary"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="1262"
+   name="HISTORY.txt"
+   text-time="2006-04-06T08:19:22.000000Z"
+   committed-date="2006-03-27T15:01:54.445655Z"
+   checksum="b28b120c6cb8935eeefa082754fb9d6a"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-04-06T08:19:22.000000Z"/>
+<entry
+   name="files"
+   kind="dir"/>
+<entry
+   name="textpattern"
+   kind="dir"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="1075"
+   name=".htaccess"
+   text-time="2006-03-17T22:37:31.000000Z"
+   committed-date="2005-11-01T13:50:53.946147Z"
+   checksum="1aa9a49e9fb517e7df83006fafd5fe5b"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:31.000000Z"/>
+<entry
+   committed-rev="1185"
+   name="README.txt"
+   text-time="2006-03-17T22:39:23.000000Z"
+   committed-date="2005-12-28T23:49:35.925537Z"
+   checksum="68c867402572f889fc9061595bdc6c2f"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:31.000000Z"/>
+<entry
+   committed-rev="804"
+   name="index.php"
+   text-time="2006-04-12T08:52:22.000000Z"
+   committed-date="2005-08-16T00:24:36.790979Z"
+   checksum="a1c2b5f6c97bf86c396c528ac389f0f7"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:31.000000Z"/>
+</wc-entries>

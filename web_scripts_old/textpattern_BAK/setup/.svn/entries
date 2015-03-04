@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1266"
+   name=""
+   committed-date="2006-03-28T13:46:27.847388Z"
+   url="http://svn.textpattern.com/development/4.0/textpattern/setup"
+   last-author="sencer"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="1258"
+   name="txpsql.php"
+   text-time="2006-04-06T08:19:20.000000Z"
+   committed-date="2006-03-27T14:20:07.759087Z"
+   checksum="e6c4f6465802a0e0bda1ea54ed087ce6"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-04-06T08:19:20.000000Z"/>
+<entry
+   committed-rev="1226"
+   name="setup-langs.php"
+   text-time="2006-04-06T08:19:20.000000Z"
+   committed-date="2006-01-14T14:39:08.445539Z"
+   checksum="825325bdae01b5068851ac8e4d4d8e49"
+   last-author="kusor"
+   kind="file"
+   prop-time="2006-04-06T08:19:20.000000Z"/>
+<entry
+   committed-rev="1266"
+   name="index.php"
+   text-time="2006-04-06T08:19:20.000000Z"
+   committed-date="2006-03-28T13:46:27.847388Z"
+   checksum="f03bdbe679376a53f9058b5f959efc6e"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-04-06T08:19:20.000000Z"/>
+<entry
+   committed-rev="1076"
+   name="en-gb.php"
+   text-time="2006-04-06T08:19:20.000000Z"
+   committed-date="2005-11-01T14:49:38.654870Z"
+   checksum="ca50ced9369909bf0ce89aa40e57e4e8"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-04-06T08:19:20.000000Z"/>
+</wc-entries>

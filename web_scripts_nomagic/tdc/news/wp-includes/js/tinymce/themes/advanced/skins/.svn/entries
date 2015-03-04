@@ -1,0 +1,71 @@
+9
+
+dir
+5
+file:///mit/tdc/www_svn/branches/live/tdc/news/wp-includes/js/tinymce/themes/advanced/skins
+file:///mit/tdc/www_svn
+
+
+
+2010-09-04T05:47:14.071599Z
+2
+lucid
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf1430af-9b2b-4463-bc3e-721eb9a06e58
+
+o2k7
+dir
+
+default
+dir
+
+php.ini
+file
+
+
+
+
+2010-09-06T22:26:15.000000Z
+ddfc727be4041d6aa26faad55ec04342
+2010-09-04T05:47:14.071599Z
+2
+lucid
+has-props
+
+
+svn:special
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+25
+
+wp_theme
+dir
+

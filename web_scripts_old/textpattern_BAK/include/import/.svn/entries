@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1155"
+   name=""
+   committed-date="2005-12-18T14:45:30.066324Z"
+   url="http://svn.textpattern.com/development/4.0/textpattern/include/import"
+   last-author="sencer"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="628"
+   name="import_mt.php"
+   text-time="2006-03-17T22:37:27.000000Z"
+   committed-date="2005-07-26T23:56:07.930611Z"
+   checksum="178358cf4e25229d039302382c505090"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:27.000000Z"/>
+<entry
+   committed-rev="628"
+   name="import_blogger.php"
+   text-time="2006-03-17T22:37:27.000000Z"
+   committed-date="2005-07-26T23:56:07.930611Z"
+   checksum="f57db4d55286b7f52017c06c67e302fb"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:27.000000Z"/>
+<entry
+   committed-rev="833"
+   name="import_b2.php"
+   text-time="2006-03-17T22:37:27.000000Z"
+   committed-date="2005-08-24T18:50:36.750502Z"
+   checksum="9c7c0d51ab3cfd34689c6cdd06ad1a88"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:27.000000Z"/>
+<entry
+   committed-rev="628"
+   name="BloggerImportTemplate.txt"
+   text-time="2006-03-17T22:37:27.000000Z"
+   committed-date="2005-07-26T23:56:07.930611Z"
+   checksum="22a823b6b87d63d51694354e58402114"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:27.000000Z"/>
+<entry
+   committed-rev="1155"
+   name="import_mtdb.php"
+   text-time="2006-03-17T22:37:27.000000Z"
+   committed-date="2005-12-18T14:45:30.066324Z"
+   checksum="6662d063256e0cd695507ece31f8069e"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:27.000000Z"/>
+<entry
+   committed-rev="1091"
+   name="import_wp.php"
+   text-time="2006-03-17T22:37:27.000000Z"
+   committed-date="2005-11-08T15:05:28.938102Z"
+   checksum="53588d1286e02af280fdc5015ce366ea"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:27.000000Z"/>
+</wc-entries>

@@ -1,0 +1,40 @@
+.editevent .editor .label {
+  text-align: right;
+  padding-right: 15px; }
+
+#content {
+    padding: 12px 0px 0px 0px;
+}
+
+#two_level_category {
+    width: 132px;
+}
+
+#two_level_subcategory {
+    width: 172px;
+}
+
+#two_level_country {
+    width: 172px;
+}
+
+#two_level_region {
+    width: 132px;
+}
+
+#host_with_groups {
+    width: 141px;
+}
+
+#host_id {
+    width: 141px;
+}
+
+.status h2  {
+        font-size: 11px;
+        margin: 0px;
+        padding: 0px; }
+
+#network {
+    width: 308px;
+}

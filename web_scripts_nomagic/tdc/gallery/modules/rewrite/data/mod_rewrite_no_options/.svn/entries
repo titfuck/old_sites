@@ -1,0 +1,71 @@
+9
+
+dir
+5
+file:///mit/tdc/www_svn/branches/live/tdc/gallery/modules/rewrite/data/mod_rewrite_no_options
+file:///mit/tdc/www_svn
+
+
+
+2010-09-04T05:47:14.071599Z
+2
+lucid
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+cf1430af-9b2b-4463-bc3e-721eb9a06e58
+
+gallery
+dir
+
+gallery2
+dir
+
+php.ini
+file
+
+
+
+
+2010-09-06T22:24:24.000000Z
+fd671eb1196f611686dc24be78318008
+2010-09-04T05:47:14.071599Z
+2
+lucid
+has-props
+
+
+svn:special
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+19
+
+custom
+dir
+

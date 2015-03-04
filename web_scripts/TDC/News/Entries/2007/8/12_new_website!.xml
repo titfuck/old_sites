@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="C5C5B51F-2D83-4DC1-8FC1-62CFAB1EDCCE">
+  <lastEdited clientType="local-build-20070821" date="2007-08-21 10:35:11 -0400"/>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="12_new_website%21_files/shapeimage_1.jpg" left="0px" top="0px" width="485px" height="258px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Welcome to our new website!</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>new website!</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;August 12, 2007&lt;/b&gt;</richText>
+  </textBox>
+</content>

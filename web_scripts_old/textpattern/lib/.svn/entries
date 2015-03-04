@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1274"
+   name=""
+   committed-date="2006-04-01T05:16:35.168937Z"
+   url="http://svn.textpattern.com/development/4.0/textpattern/lib"
+   last-author="zem"
+   kind="dir"
+   uuid="9f4ba7e5-8be4-0310-8a13-eacbff687fd7"
+   repos="http://svn.textpattern.com"
+   revision="1286"/>
+<entry
+   committed-rev="1176"
+   name="constants.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-12-26T16:33:53.271904Z"
+   checksum="4002b264cd1884ded60b58cc3f034438"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="877"
+   name="admin_config.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-09-05T10:06:29.235437Z"
+   checksum="7544f43f386e3a467282777ff480d98e"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1038"
+   name="i18n-ascii.txt"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-10-17T16:39:54.436589Z"
+   checksum="dabf66bdd2a7f0f5fc4a24b1fe39ab7e"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1274"
+   name="txplib_misc.php"
+   text-time="2006-04-06T08:19:21.000000Z"
+   committed-date="2006-04-01T05:16:35.168937Z"
+   checksum="52b32d6de32e8c84fa5f202f1c77c7b3"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-04-06T08:19:21.000000Z"/>
+<entry
+   committed-rev="628"
+   name="taglib.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-07-26T23:56:07.930611Z"
+   checksum="a9b95b3fff1de6a4d9f6e40a53a8f6fb"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1257"
+   name="class.thumb.php"
+   text-time="2006-04-06T08:19:22.000000Z"
+   committed-date="2006-03-27T12:27:44.414913Z"
+   checksum="24bea73022c4f3a7f238443116abe845"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-04-06T08:19:21.000000Z"/>
+<entry
+   committed-rev="1183"
+   name="txplib_head.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-12-28T16:18:05.267751Z"
+   checksum="f1586ee72a9ab555b370912c4a39c82f"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1228"
+   name="classTextile.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2006-01-15T23:10:32.287340Z"
+   checksum="66ccd7f1a69004b2a01194b28f8735a0"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1239"
+   name="txplib_update.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2006-03-11T00:18:11.655796Z"
+   checksum="e352219bacb6f6a260e6cd61e4dc0c20"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1166"
+   name="txplib_html.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-12-25T21:22:41.656394Z"
+   checksum="e186bd8ce2584f087a89c896e4909655"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="1268"
+   name="txplib_db.php"
+   text-time="2006-04-06T08:19:22.000000Z"
+   committed-date="2006-03-30T23:49:49.408838Z"
+   checksum="0f79c794b6acbb651360d45fa721a7e8"
+   last-author="zem"
+   kind="file"
+   prop-time="2006-04-06T08:19:21.000000Z"/>
+<entry
+   committed-rev="765"
+   name="IXRClass.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-08-11T16:27:10.232164Z"
+   checksum="dcb04f1a9425c61d914b43e79ffa587b"
+   last-author="sencer"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+<entry
+   committed-rev="950"
+   name="txplib_forms.php"
+   text-time="2006-03-17T22:37:28.000000Z"
+   committed-date="2005-09-24T10:35:03.084217Z"
+   checksum="8208731d02106e4ae2fd2099beec4fe7"
+   last-author="kusor"
+   kind="file"
+   prop-time="2006-03-17T22:37:28.000000Z"/>
+</wc-entries>

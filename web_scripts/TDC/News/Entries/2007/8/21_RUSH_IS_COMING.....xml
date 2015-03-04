@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="C5C5B51F-2D83-4DC1-8FC1-62CFAB1EDCCE">
+  <lastEdited clientType="local-build-20070821" date="2007-08-21 10:35:11 -0400"/>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="21_RUSH_IS_COMING...._files/shapeimage_1.jpg" left="0px" top="0px" width="485px" height="258px"/>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Make sure to look at our Rush page for more info on rush as well as the rest of the website for more insight on Theta Delta Chi!&#xD;&#xD;--albert</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>RUSH IS COMING....</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;August 21, 2007&lt;/b&gt;</richText>
+  </textBox>
+</content>

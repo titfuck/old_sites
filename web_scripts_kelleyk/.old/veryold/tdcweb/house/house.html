@@ -1,0 +1,119 @@
+<HTML>
+	<HEAD>
+			<SCRIPT LANGUAGE="JavaScript"><!-- Hide from old browsers
+bName = navigator.appName;
+bVer = parseInt(navigator.appVersion);
+	if	((bName == "Netscape" && bVer >= 3) ||
+		(bName == "Microsoft Internet Explorer" && bVer >= 4)) br = "n3";
+	else
+		br = "n2";
+
+
+
+
+if (br == "n3") {
+
+	img1on = new Image();
+	img1on.src = "fourth_glow.jpg";
+	img2on = new Image();
+	img2on.src = "third_glow.jpg";
+	img3on = new Image();
+	img3on.src = "second_glow.jpg";
+	img4on = new Image();
+	img4on.src = "first_glow.jpg";
+	img5on = new Image();
+	img5on.src = "base_glow.jpg";
+	
+	img1off = new Image();
+	img1off.src = "fourth_norm.jpg";
+	img2off = new Image();
+	img2off.src = "third_norm.jpg";
+	img3off = new Image();
+	img3off.src = "second_norm.jpg";
+	img4off = new Image();
+	img4off.src = "first_norm.jpg";
+	img5off = new Image();
+	img5off.src = "base_norm.jpg";
+
+
+}
+
+function changePages(floorURL) {
+	if (br == "n3") {
+		parent.cutaway.location.href = floorURL;
+		parent.room.location.href = "rooms/room_intro.html";
+	}
+}
+
+function imgAct(imgName) {
+	if (br == "n3") {
+		document[imgName].src = eval(imgName + "on.src");
+	}
+}
+
+function imgInact(imgName) {
+	if (br == "n3") {
+		document[imgName].src = eval(imgName + "off.src");
+	}
+}
+// Stop hiding from old browsers -->
+</SCRIPT>
+		<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">
+		<META NAME="generator" CONTENT="GoLive CyberStudio">
+		<TITLE>Welcome to GoLive CyberStudio</TITLE>
+	</HEAD>
+	<BODY BGCOLOR="#000000" TEXT="#FFFFFF">
+		<P><TABLE COOL WIDTH="328" HEIGHT="445" BORDER="0" CELLPADDING="0" CELLSPACING="0" GRIDX="16" SHOWGRIDX USEGRIDX GRIDY="16" SHOWGRIDY>
+
+			<TR HEIGHT="1" CNTRLROW>
+				<TD WIDTH="1" HEIGHT="1"></TD>
+				<TD WIDTH="325" HEIGHT="1"><SPACER TYPE="block" WIDTH="325" HEIGHT="1"></TD>
+			</TR>
+
+			<TR HEIGHT="164">
+				<TD WIDTH="1" HEIGHT="164"><SPACER TYPE="block" WIDTH="1" HEIGHT="164"></TD>
+				<TD WIDTH="325" HEIGHT="164" COLSPAN="1" ROWSPAN="1" VALIGN="top" ALIGN="left" XPOS="0"><A HREF="javascript:changePages('floors/fourth.html')" ONMOUSEOVER="imgAct('img1')" ONMOUSEOUT="imgInact('img1')"><IMG NAME="img1" SRC="fourth_norm.jpg" BORDER="0"></A></TD>
+			</TR>
+
+			<TR HEIGHT="88">
+				<TD WIDTH="1" HEIGHT="88"><SPACER TYPE="block" WIDTH="1" HEIGHT="88"></TD>
+				<TD WIDTH="325" HEIGHT="88" COLSPAN="1" ROWSPAN="1" VALIGN="top" ALIGN="left" XPOS="0"><A HREF="javascript:changePages('floors/third.html')" ONMOUSEOVER="imgAct('img2')" ONMOUSEOUT="imgInact('img2')"><IMG NAME="img2" SRC="third_norm.jpg" BORDER="0"></A></TD>
+			</TR>
+
+			<TR HEIGHT="59">
+				<TD WIDTH="1" HEIGHT="59"><SPACER TYPE="block" WIDTH="1" HEIGHT="59"></TD>
+				<TD WIDTH="325" HEIGHT="59" COLSPAN="1" ROWSPAN="1" VALIGN="top" ALIGN="left" XPOS="0"><A HREF="javascript:changePages('floors/second.html')" ONMOUSEOVER="imgAct('img3')" ONMOUSEOUT="imgInact('img3')"><IMG NAME="img3" SRC="second_norm.jpg" BORDER="0"></A></TD>
+			</TR>
+
+			<TR HEIGHT="46">
+				<TD WIDTH="1" HEIGHT="46"><SPACER TYPE="block" WIDTH="1" HEIGHT="46"></TD>
+				<TD WIDTH="325" HEIGHT="46" COLSPAN="1" ROWSPAN="1" VALIGN="top" ALIGN="left" XPOS="0"><A HREF="javascript:changePages('floors/first.html')" ONMOUSEOVER="imgAct('img4')" ONMOUSEOUT="imgInact('img4')"><IMG NAME="img4" SRC="first_norm.jpg" BORDER="0"></A></TD>
+			</TR>
+
+			<TR HEIGHT="85">
+				<TD WIDTH="1" HEIGHT="85"><SPACER TYPE="block" WIDTH="1" HEIGHT="85"></TD>
+				<TD WIDTH="325" HEIGHT="85" COLSPAN="1" ROWSPAN="1" VALIGN="top" ALIGN="left" XPOS="0"><A HREF="javascript:changePages('floors/base.html')" ONMOUSEOVER="imgAct('img5')" ONMOUSEOUT="imgInact('img5')"><IMG NAME="img5" SRC="base_norm.jpg" BORDER="0"></A></TD>
+			</TR>
+		</TABLE>
+
+
+		<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="2" WIDTH="100%">
+
+			<TR>
+				<TD>
+				<CENTER><A HREF="../brothers/index.html" TARGET="_top">Brothers</A>
+				</CENTER></TD>
+				<TD>
+				<CENTER><A HREF="../activities/index.html" TARGET="_top">Activities</A>
+				</CENTER></TD>
+				<TD>
+				<CENTER><A HREF="../rush/index.html" TARGET="_top">Rush</A>
+				</CENTER></TD>
+				<TD>
+				<CENTER><A HREF="../faq/index.html" TARGET="_top">F.A.Q.</A>
+				</CENTER></TD>
+			</TR>
+		</TABLE>
+		</P>
+	</BODY>
+</HTML>

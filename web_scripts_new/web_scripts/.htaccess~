@@ -1,0 +1,20 @@
+#DirectoryIndex index.php index.html
+#Options +FollowSymLinks
+#RewriteBase /~tdc
+
+<IfModule mod_rewrite.c>
+ RewriteEngine On
+ 
+ RewriteCond %{HTTPS} !on
+ RewriteRule ^wiki(.*) https://tdc.mit.edu/wiki$1 [L,NS,QSA]
+
+ RewriteCond %{REQUEST_FILENAME} -f [OR]
+ RewriteCond %{REQUEST_FILENAME} -d
+ RewriteRule ^(.+) - [PT,L]
+ 
+ RewriteRule wiki/(.+)$ /wiki/index.php?title=$1 [L,NS,QSA]
+
+ RewriteRule ^(.*) index.php
+</IfModule>
+
+#php_value register_globals 0

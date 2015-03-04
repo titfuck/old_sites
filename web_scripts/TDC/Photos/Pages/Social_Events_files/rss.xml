@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:iphoto="urn:iphoto:property" xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Social Events</title>
+    <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html</link>
+    <description>Date:  2006/2007 School Year
+
+</description>
+    <item>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html#0</link>
+      <guid isPermaLink="false">f53ef046-c803-4c6a-90ce-c1c14549ec42</guid>
+      <enclosure url="http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2959/CIMG2959.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2959/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2959/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2959/mip.jpg</iweb:mip-thumbnail>
+    </item>
+    <item>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html#1</link>
+      <guid isPermaLink="false">42f7ca3c-d82e-4b0c-98e8-f30fbf2cf9c5</guid>
+      <enclosure url="http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2960/CIMG2960.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2960/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2960/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/CIMG2960/mip.jpg</iweb:mip-thumbnail>
+    </item>
+    <item>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html#2</link>
+      <guid isPermaLink="false">b04c7b24-dace-49fd-b573-e673ff784dfa</guid>
+      <enclosure url="http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/DCAO0014/DCAO0014.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/DCAO0014/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/DCAO0014/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/DCAO0014/mip.jpg</iweb:mip-thumbnail>
+    </item>
+    <item>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html#3</link>
+      <guid isPermaLink="false">3347d88f-5db0-455b-9aa4-b93c32dbbc9f</guid>
+      <enclosure url="http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1206/HPIM1206.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1206/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1206/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1206/mip.jpg</iweb:mip-thumbnail>
+    </item>
+    <item>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html#4</link>
+      <guid isPermaLink="false">91799da4-c99a-4fca-bd9c-9aeb1e1a249b</guid>
+      <enclosure url="http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1216/HPIM1216.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1216/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1216/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1216/mip.jpg</iweb:mip-thumbnail>
+    </item>
+    <item>
+      <link>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events.html#5</link>
+      <guid isPermaLink="false">3dd47679-44b3-4655-9dd0-4f09fc6a3ede</guid>
+      <enclosure url="http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1529/HPIM1529.jpg" length="0" type="image/jpeg"/>
+      <iphoto:thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1529/thumb.jpg</iphoto:thumbnail>
+      <iweb:micro>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1529/micro.jpg</iweb:micro>
+      <iweb:mip-thumbnail>http://tdc.mit.edu/TDC/Photos/Pages/Social_Events_files/Media/HPIM1529/mip.jpg</iweb:mip-thumbnail>
+    </item>
+  </channel>
+</rss>
